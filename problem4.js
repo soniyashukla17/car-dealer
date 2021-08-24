@@ -1,8 +1,8 @@
 function problem4(inventory){
-    let arr=[];
+    let carYear=[];
     for(let i=0;i<inventory.length;i++){
-        arr[i]=inventory[i].car_year;
+        carYear[i]=inventory[i].car_year;
     }
-    console.log(arr);
+    console.log(carYear);
 }
 module.exports = {problem4}

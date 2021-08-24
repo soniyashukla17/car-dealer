@@ -1,10 +1,11 @@
 function problem5(inventory){
-    let arr=[];
+    let olderThan2000=[];
     for(let i=0;i<inventory.length;i++){
         if(inventory[i].car_year<2000){
-            arr[i]=inventory[i].car_year;
+            olderThan2000[i]=inventory[i].car_year;
         }
+        
     }
-    console.log(arr.length);
+    console.log(olderThan2000.length);
 }
 module.exports = {problem5}

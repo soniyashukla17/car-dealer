@@ -1,9 +1,9 @@
 function problem3(inventory){
-    let arr=[];
+    let carModelinAlphabeticalOrder=[];
     for(let i=0;i<inventory.length;i++){
-        arr[i]=inventory[i].car_model;
+        carModelinAlphabeticalOrder[i]=inventory[i].car_model;
     }
-    arr.sort();
-    console.log(arr);
+    carModelinAlphabeticalOrder.sort();
+    console.log(carModelinAlphabeticalOrder);
 }
 module.exports = {problem3}
